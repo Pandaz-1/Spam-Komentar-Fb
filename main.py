@@ -154,7 +154,7 @@ class Main:
         print('    -!> CTRL + C untuk berhenti')
         print()
         count = 1
-        t = 1
+        t = 0
         for s in range(inpjmlh):
             self.sendComment(inplink, comment)
             if 'Gabung ke Grup' in self.gettarget:
@@ -164,6 +164,7 @@ class Main:
             t += 1
             if t == 5:
                 time.sleep(5)
+                t == 0
                 print('    --> Delay 5 detik')
         exit('    -•> Selesai')
 
