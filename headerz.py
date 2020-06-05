@@ -1,6 +1,6 @@
 import re,json
 
-# saya ammbil dari github om karjom
+# saya ammbil dari github om karjok
 #https://github.com/karjok
 
 
