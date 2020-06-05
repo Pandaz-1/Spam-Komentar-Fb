@@ -19,6 +19,7 @@ class Main:
     [---------------------]'''
 
     def __init__(self):
+        os.system('clear')
         self.banner = Main.banner
         self.head = 'https://mbasic.facebook.com'
         self.req = requests.Session()
