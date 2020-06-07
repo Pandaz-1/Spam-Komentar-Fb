@@ -175,7 +175,7 @@ class Main:
         if 'Konten Tidak Ditemukan' in groups.text:
             print()
             exit('    -!> ID Grup tidak  ditemukan')
-        elif 'Anda Tidak Dapat Menggunakan Fitur Ini Sekarang' in profil.text:
+        elif 'Anda Tidak Dapat Menggunakan Fitur Ini Sekarang' in groups.text:
             print()
             exit('    -!> Melanggar komonitas')
         else:
